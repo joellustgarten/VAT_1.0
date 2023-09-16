@@ -40,7 +40,7 @@
                 <div id="dropdown1" class="dropdown">
                   <ul role="menu">
                     <li role="menuitem">
-                      <a class="dropdown-link" href="#watch">
+                      <a class="dropdown-link" href="#" onclick="openAnalogClock()">
                         <img src="./images/time-span.png" class="icon" width="48px" height="48px"/>
                         <div>
                           <span class="dropdown-link-title"
@@ -51,7 +51,7 @@
                       </a>
                     </li>
                     <li role="menuitem">
-                      <a class="dropdown-link" href="#chronometer">
+                      <a class="dropdown-link" href="#" onclick="openChronometer()">
                         <img src="./images/chrono.png" class="icon" width="48px" height="48px"/>
                         <div>
                           <span class="dropdown-link-title"
@@ -62,7 +62,7 @@
                       </a>
                     </li>
                     <li role="menuitem">
-                      <a class="dropdown-link" href="#todo">
+                      <a class="dropdown-link" href="#" onclick="openToDoList()">
                         <img src="./images/to-do.png" class="icon" width="48px" height="48px"/>
                         <div>
                           <span class="dropdown-link-title">To do list</span>
@@ -71,7 +71,7 @@
                       </a>
                     </li>
                     <li role="menuitem">
-                      <a class="dropdown-link" href="#notes">
+                      <a class="dropdown-link" href="#" onclick="openNotes()">
                         <img src="./images/notes.png" class="icon" width="48px" height="48px"/>
                         <div>
                           <span class="dropdown-link-title">Sticky notes</span>
@@ -98,7 +98,7 @@
                       </a>
                     </li>
                     <li role="menuitem">
-                      <a class="dropdown-link" href="#whiteboard">
+                      <a class="dropdown-link" href="#" onclick="openWhiteboard()">
                         <img src="./images/whiteboard.png" width="24px" height="24px"/>
                         whiteboard
                       </a>
@@ -188,7 +188,25 @@
           </button>
         </div>
       </div>
+      <script src="./JS/header_script.js"></script>
+      <script>
+        function openAnalogClock(){
+          window.open("./ac/index.html", "popup=yes", "width=800, height=600");
+        }
+        function openChronometer() {
+          window.open("./ch/index.html", "popup=yes", "width=700, height=300");
+        }
+        function openToDoList() {
+          window.open("./td/index.html", "popup=yes", "width=800, height=600");
+        }
+        function openNotes() {
+          window.open("./na/index.html", "popup=yes", "width=800, height=600");
+        }
+        function openWhiteboard() {
+          window.open("./wb/index.html", "popup=yes", "width=1000, height=700");
+        }
+        </script>
     </header>
-    <script src="./JS/header_script.js"></script>
   </body>
 </html>
+
