@@ -1,4 +1,6 @@
-font-face {
+
+
+@font-face {
     font-family: 'Poppins';
     src: url('../font/Poppins-Regular.ttf')format('truetype');
 }
@@ -33,7 +35,6 @@ font-face {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
   }
 
 /* Animated frieze style */
@@ -86,15 +87,6 @@ font-face {
     }
 }
 
-/* style.css */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
 
 :root {
   --dark-grey: #333333;
@@ -109,7 +101,7 @@ font-face {
 }
 
 body {
-  font-family: inherit;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--white);
   color: var(--dark-grey);
   letter-spacing: -0.4px;
@@ -129,6 +121,8 @@ button {
   background-color: transparent;
   cursor: pointer;
   color: inherit;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .btn {
@@ -136,9 +130,8 @@ button {
   background-color: var(--primary-color);
   color: var(--white);
   text-align: center;
-  padding: 0.6rem 1.4rem;
-  font-size: 1rem;
-  font-weight: 500;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.9rem;
   border-radius: 5px;
 }
 
@@ -192,7 +185,7 @@ button {
 
 .menu-bar .nav-link {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.6px;
   padding: 0.3rem;
   min-width: 60px;
@@ -283,7 +276,7 @@ button {
   border-radius: 6px;
   padding: 0.7rem;
   padding-left: 2.4rem;
-  font-size: 16px;
+  font-size: 14px;
   width: 100%;
   border: var(--border);
 }
