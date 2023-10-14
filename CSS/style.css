@@ -1,0 +1,155 @@
+
+.container_body {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 3rem;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+*/
+.container_body .form {
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container::after, .container::before,
+.container_signup::after, .container_signup::before,
+.container_menu::after, .container_menu::before {
+    display: table;
+    content: " ";
+}
+
+
+.container::after, .container_signup::after,
+.container_menu::after {
+    clear: both;
+}
+
+.main {
+    position: relative;
+    min-height: 87vh;
+    padding: 40px 40px;
+}
+
+.logIn {
+    background: linear-gradient(90deg, #2E7EB5 0%,#235BA2, 80%, #1A3981 100%);
+}
+
+
+.container_body .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.container_body .form form .forget-pass{
+    margin: 5px 0 15px 0;
+}
+
+.container_body .form form .forget-pass a{
+   font-size: 15px;
+}
+
+.container_body .form form .button{
+    background: #6665ee;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.container_body .form form .button:hover{
+    background: #5757d1;
+}
+
+.container_body .form form .link{
+    padding: 5px 0;
+}
+
+.container_body .form form .link a{
+    color: #6665ee;
+}
+
+.container_body .login-form form p{
+    font-size: 14px;
+}
+
+.container_body .row .alert{
+    font-size: 14px;
+}
+
+.signup {
+  margin-top: 5px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h2.text-center {
+    color: #2b72fb;
+}
+  
+h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem; 
+    line-height: 1.2;
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+  
+.form-control {
+    margin-top: 16px;
+}
+
+  
+  
