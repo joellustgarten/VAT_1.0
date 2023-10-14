@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./CSS/Header2.css">
-  <link rel="stylesheet" href="./CSS/Footer.css">
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <title>Virtual Training App - English (en)</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/Header2.css">
+    <link rel="stylesheet" href="./CSS/Footer.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Virtual Training App - English (en)</title>
 </head>
 
 <body>
@@ -23,10 +23,10 @@
                 <nav class="menu">
                     <ul class="menu-bar">
                         <li>
-                            <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false"
-                            aria-label="browse"><b>
-                            Browse
-                            </b><i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true"
+                                aria-expanded="false" aria-label="browse"><b>
+                                    Browse
+                                </b><i class="bx bx-chevron-down" aria-hidden="true"></i>
                             </button>
                             <div id="dropdown1" class="dropdown">
                                 <ul role="menu">
@@ -73,7 +73,7 @@
                                         <span class="dropdown-link-title">Browse by apps</span>
                                     </li>
                                     <li role="menuitem">
-                                        <a class="dropdown-link" href="#unit">
+                                        <a class="dropdown-link" href="#" onclick="openUnitConverter()">
                                             <img src="./images/unit.png" width="24px" height="24px" />
                                             Unit converter
                                         </a>
@@ -88,7 +88,7 @@
                                         <a class="dropdown-link" href="#" onclick="openWhiteboard()">
                                             <img src="./images/whiteboard.png" width="24px" height="24px" />
                                             whiteboard
-                                        </a>        
+                                        </a>
                                     </li>
                                     <li role="menuitem">
                                         <a class="dropdown-link" href="#other">
@@ -99,16 +99,16 @@
                                     <li role="menuitem">
                                         <a class="dropdown-link" href="#other">
                                             <img src="./images/other.png" width="24px" height="24px" />
-                                                Other
+                                            Other
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li>
-                            <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false"
-                                aria-label="settings"><b>
-                                Settings
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true"
+                                aria-expanded="false" aria-label="settings"><b>
+                                    Settings
                                 </b><i class="bx bx-chevron-down" aria-hidden="true"></i>
                             </button>
                             <div id="dropdown2" class="dropdown">
@@ -163,22 +163,25 @@
         <script src="./JS/header_script.js"></script>
         <script>
             function openAnalogClock() {
-            window.open("./ac/index.html", "popup=yes", "width=800, height=600");
+                window.open("./ac/index.html", "popup=yes", "width=800, height=600");
             }
             function openChronometer() {
-            window.open("./ch/index.html", "popup=yes", "width=700, height=300");
+                window.open("./ch/index.html", "popup=yes", "width=700, height=300");
             }
             function openToDoList() {
-            window.open("./td/index.html", "popup=yes", "width=800, height=600");
+                window.open("./td/index.html", "popup=yes", "width=800, height=600");
             }
             function openNotes() {
-            window.open("./na/index.html", "popup=yes", "width=800, height=600");
+                window.open("./na/index.html", "popup=yes", "width=800, height=600");
             }
             function openWhiteboard() {
-            window.open("./wb/index.html", "popup=yes", "width=1000, height=700");
+                window.open("./wb/index.html", "popup=yes", "width=1000, height=700");
             }
             function openTechnicalDict() {
-            window.open("./dic/technicalDictionary.html", "popup=yes", "width=1100, height=700");
+                window.open("./dic/technicalDictionary.html", "popup=yes", "width=1100, height=700");
+            }
+            function openUnitConverter() {
+                window.open("./uc/unitConverter.html", "popup=yes", "width=500, height=350");
             }
         </script>
     </header>
@@ -191,22 +194,25 @@
                         <h2 class="text-center">Login Form</h2>
                         <p class="text-center">Login with your email and password.</p>
                         <div class="form-group">
-                            <input class="form-control" type="email" name="email" placeholder="&nbsp;Email Address" required>
+                            <input class="form-control" type="email" name="email" placeholder="&nbsp;Email Address"
+                                required>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="password" name="password" placeholder="&nbsp;Password" required>
+                            <input class="form-control" type="password" name="password" placeholder="&nbsp;Password"
+                                required>
                         </div>
                         <div class="link forget-pass text-left"><a href="#">Forgot password?</a></div>
                         <div class="form-group">
                             <input class="form-control button" type="submit" name="login" value="Login">
                         </div>
-                        <div class="link login-link text-center">Not yet a member?&nbsp;&nbsp;<a href="#">&nbsp;&nbsp;Signup now</a></div>
+                        <div class="link login-link text-center">Not yet a member?&nbsp;&nbsp;<a
+                                href="#">&nbsp;&nbsp;Signup now</a></div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-        
+
     <footer>
         <div class="copyright">
             <p>&copy 2023 - Virtual Training APP</p>
@@ -218,6 +224,7 @@
             <a href="#" class="linked">in</a>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
