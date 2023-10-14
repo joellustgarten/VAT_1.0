@@ -2,7 +2,6 @@
 session_start();
 require "connection.php";
 $email = "";
-$name = "";
 $errors = array();
 
 # if user click login button
